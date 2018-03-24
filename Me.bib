@@ -1,130 +1,241 @@
-@inproceedings{brown_automated_2015_me,
+@article{zacharis_data-driven_2018,
+	title = {Data-{Driven} {Analysis} of {Ultrasonic} {Inspection} {Data} of {Pressure} {Tubes}},
+	volume = {0},
+	copyright = {All rights reserved},
+	issn = {0029-5450},
+	url = {https://doi.org/10.1080/00295450.2017.1421803},
+	doi = {10.1080/00295450.2017.1421803},
+	abstract = {Pressure tubes are critical components of CANDU reactors and other pressurized heavy water–type reactors because they contain the nuclear fuel and the coolant. Manufacturing flaws as well as defects developed during in-service operation can lead to coolant leakage and can potentially damage the reactor. The current inspection process of these flaws is based on manually analyzing ultrasonic data received from multiple probes during planned, statutory outages. Recent advances in ultrasonic inspection tools enable the provision of high-resolution data of significantly large volumes. This highlights the need for an efficient autonomous signal analysis process. Typically, automation of ultrasonic inspection data analysis is approached by knowledge-based or supervised data-driven methods. This work proposes an unsupervised data-driven framework that requires no explicit rules or individually labeled signals. The framework follows a two-stage clustering procedure that utilizes the Density-Based Spatial Clustering of Applications with Noise density-based clustering algorithm and aims to provide decision support for the assessment of potential defects in a robust and consistent way. Nevertheless, verified defect dimensions are essential in order to assess the results and train the framework for unseen defects. Initial results of the implementation are presented and discussed, with the method showing promise as a means of assessing ultrasonic inspection data.},
+	number = {0},
+	urldate = {2018-03-24},
+	journal = {Nuclear Technology},
+	author = {Zacharis, Panagiotis and West, Graeme and Dobie, Gordon and Lardner, Timothy and Gachagan, Anthony},
+	month = mar,
+	year = {2018},
+	keywords = {machine learning, Pressure tube, ultrasonic inspection},
+	pages = {1--8},
+	file = {Snapshot:/Users/tim/Zotero/storage/9UE9RIG2/00295450.2017.html:text/html}
+}
+
+@article{lardner_automated_2017,
+	title = {Automated sizing and classification of defects in {CANDU} pressure tubes},
+	volume = {325},
+	copyright = {All rights reserved},
+	issn = {0029-5493},
+	url = {http://www.sciencedirect.com/science/article/pii/S0029549317304661},
+	doi = {10.1016/j.nucengdes.2017.09.029},
+	abstract = {Pressure tubes within CANDU reactors are subject to frequent ultrasonic non-destructive examination to identify and characterize any defects that pose a risk of initiating Delayed Hydride Cracking (DHC), a well-known problem that occurs in zirconium components that are subject to high mechanical and thermal stresses. The analysis of the ultrasonic data gathered from the pressure tubes is often a long and repetitive process on the critical path to the restart of the reactor. Motivations for developing an automated system include saving time on the critical path, minimising human subjectivity from the process and increasing repeatability of measurements. An automated system providing decision support to analysts also reduces the risk of operator fatigue by minimising time spent processing routine defects. This paper describes a novel system for the automated analysis of CANDU pressure tube inspection data. The system automates the entire initial examination process including the complex decision-making procedures by implementing an expert system with an associated rule-base. Results from this system are detailed, illustrating the location and characterisation of defects and key features within the pressure tube with a high degree of accuracy while increasing repeatability through the removal of subjectivity in measurements.},
+	urldate = {2018-03-24},
+	journal = {Nuclear Engineering and Design},
+	author = {Lardner, Timothy and West, Graeme and Dobie, Gordon and Gachagan, Anthony},
+	month = dec,
+	year = {2017},
+	keywords = {Automation, CANDU, NDE, Ultrasound},
+	pages = {25--32},
+	file = {ScienceDirect Snapshot:/Users/tim/Zotero/storage/6D3MNMU7/S0029549317304661.html:text/html}
+}
+
+@inproceedings{lardner_expert-systems_2017,
+	address = {Hyatt Regency},
+	title = {An expert-systems approach to automatically determining flaw depth within {CANDU} pressure tubes},
+	copyright = {All rights reserved},
+	url = {https://strathprints.strath.ac.uk/60540/},
+	abstract = {Delayed Hydride Cracking (DHC) is a crack growth mechanism that occurs in zirconium alloys, including the pressure tubes of CANDU reactors. DHC is caused by hydrogen in solution in zirconium components being diffused to any flaws present, resulting in an increased concentration of hydrogen within these flaws. An increased hydrogen concentration can lead to brittleness, followed by cracking, in high-stress regions of a pressure tube. Regular in-service ultrasonic inspection of CANDU pressure tubes aim to locate and classify any flaws that pose a potential for DHC initiation. A common approach to inspection is the use of a bespoke tool containing multiple ultrasonic transducers to ensure that each point on the pressure tube is inspected from a minimum of three angles during a scan. All flaws from within the inspected pressure tubes must be characterized prior to restarting the reactor, thus the time-consuming analysis process lies on the critical outage path. This process is manually intensive and often requires a significant amount of expert knowledge. A modular system to automatically process outage data to provide decision support to analysts has been developed. This system saves time on the critical outage path while providing repeatable and explicable measurements. Part of the analysis process requires the depth of all flaws to be measured, which is often the most time consuming stage of the analysis process. This paper describes an approach that utilizes captured analysts knowledge to perform automatic flaw depth estimation.},
+	language = {en},
+	urldate = {2018-03-24},
+	booktitle = {10th {International} {Topical} {Meeting} on {Nuclear} {Plant} {Instrumentation}, {Control} and {Human} {Machine} {Interface} {Technologies}},
+	author = {Lardner, Timothy and West, Graeme and Dobie, Gordon and Gachagan, Anthony},
+	month = apr,
+	year = {2017},
+	file = {Full Text PDF:/Users/tim/Zotero/storage/482728ZY/Lardner et al. - 2017 - An expert-systems approach to automatically determ.pdf:application/pdf;Snapshot:/Users/tim/Zotero/storage/7QC9KIUK/60540.html:text/html}
+}
+
+@inproceedings{mineo_fast_2016,
+	title = {Fast ultrasonic phased array inspection of complex geometries delivered through robotic manipulators and high speed data acquisition instrumentation},
+	copyright = {All rights reserved},
+	doi = {10.1109/ULTSYM.2016.7728746},
+	abstract = {Performance of modern robotic manipulators has enabled research and development of fast automated non-destructive testing (NDT) systems for complex geometries. This paper presents recent outcomes of work aimed at removing the bottleneck due to data acquisition rates, to fully exploit the scanning speed of modern 6-DoF manipulators. State of the art ultrasonic instrumentation has been integrated into a large robot cell to enable fast data acquisition, high scan resolutions and accurate positional encoding. A fibre optic connection between the ultrasonic instrument and the server computer enables data transfer rates up to 1.6GB/s. Multiple data collection methods are compared. Performance of the integrated system allows traditional ultrasonic phased array scanning as well as full matrix capture (FMC). In FMC configuration, linear scan speeds up to 156mm/s with 64 pulses per frame are achieved - this speed is only constrained by the acoustic wave propagation in the component. An 8x increase of the speed (up to 1.25m/s) can be achieved using multiple transmission elements, reaching the physical limits for acceptable acoustic alignment of transmission and reception paths. Scan results, relative to a 1.2m × 3m carbon fibre sample, are presented.},
+	booktitle = {2016 {IEEE} {International} {Ultrasonics} {Symposium} ({IUS})},
+	author = {Mineo, C. and MacLeod, C. and Morozov, M. and Pierce, S. G. and Lardner, T. and Summan, R. and Powell, J. and McCubbin, P. and McCubbin, C. and Munro, G. and Paton, S. and Watson, D. and Lines, D.},
+	month = sep,
+	year = {2016},
+	keywords = {Acoustics, CFRP, data acquisition, Data acquisition, fast ultrasonic phased array inspection, fibre optic connection, FMC, full matrix capture, high speed data acquisition instrumentation, inspection, Inspection, manipulators, nondestructive testing, optical fibres, Phased array, Probes, robotic manipulators, Robotic NDT, Service robots, ultrasonic instrument, ultrasonic materials testing},
+	pages = {1--4},
+	file = {IEEE Xplore Abstract Record:/Users/tim/Zotero/storage/PQR222E2/7728746.html:text/html}
+}
+
+@incollection{zhao_hybrid_2016,
+	address = {New York, USA},
+	title = {Hybrid simulation model of ultrasonic inspection of pressure tubes in nuclear industry},
+	copyright = {All rights reserved},
+	isbn = {978-1-5108-3094-3},
+	url = {https://strathprints.strath.ac.uk/59606/},
+	abstract = {Pressure tube inspection within CANDU nuclear reactors is a critical maintenance operation to identify and track the growth of defects within the tube. Current inspection approaches utilising ultrasonic techniques are technically challenging, which cause the whole inspection process to be resource intensive and expensive to implement. This paper will describe the initial stages in the development of a simulation approach for the ultrasonic inspection methodology to research advanced solutions with the objective of improving the inspection accuracy. Zirconium tubes with a thickness of 4.3mm and a required measurement accuracy of defect depth of 0.1mm require the use of high frequency ultrasonic transducers. The finite element modelling of high frequencies is challenging due to the increased mesh requirements to resolve the small wavelengths and the large propagation distance which can cause numerical dispersion. Hence, a 2D finite element hybrid model is developed in PZFlex software to overcome this difficulty with five subsequent components containing both finite element models and analytical solutions: ultrasound transmission; transmission extrapolation (wave propagation); target interaction; echo wave extrapolation and ultrasonic reception. To test the capability of defect inspection using the hybrid model, a slot with a depth of 1mm is introduced in the model. The depth information was calculated from the time-of-flight between the reflections of the tube surface and the slot. The predicted modelled depth estimates produces errors of less than 20micron for both 10MHz and 20MHz probe configurations validating the hybrid modelling approach. Moreover, experimental validation of the hybrid modelling approach is demonstrated.},
+	language = {en},
+	urldate = {2018-03-24},
+	booktitle = {Proceedings of 55th {Annual} {British} {Conference} of {Non}-{Destructive} {Testing} - {NDT} 2016},
+	publisher = {British Institute of Non-Destructive Testing},
+	author = {Zhao, Huan and Dobson, Jeff and Gachagan, Anthony and Lardner, Timothy and Dobie, Gordon},
+	month = sep,
+	year = {2016},
+	pages = {1--10},
+	file = {Full Text PDF:/Users/tim/Zotero/storage/M6ZYH6BC/Zhao et al. - 2016 - Hybrid simulation model of ultrasonic inspection o.pdf:application/pdf;Snapshot:/Users/tim/Zotero/storage/A2LWCETB/59606.html:text/html}
+}
+
+@phdthesis{lardner_new_2016,
+	type = {Ph.{D}.},
+	title = {New algorithms for ultrasonic non-destructive evaluation},
+	copyright = {All rights reserved},
+	url = {http://oleg.lib.strath.ac.uk:80/R/?func=dbin-jump-full&object_id=26912},
+	abstract = {The push for more efficient operation of power generation stations has led to the development of advanced alloys designed to cope with the stresses of running at elevated temperatures. The micro-structure of these new alloys makes the inspection process difficult due to large grains that scatter ultrasonic energy. Aerospace components such as aircraft engine turbine blades are made from similar materials and pose the same difficulties for inspection. In addition, the complex geometries of many of these parts hinder the use of existing advanced imaging methodologies. The current inspection process involves using both individual transducers and phased arrays to collect pulse-echo data from structures. This process is not sufficient for such difficult materials and a new process must be devised, tested and deployed. This thesis presents an investigation of new practical techniques to process ultrasonic array data collected via a Full Matrix Capture. Two novel signal processing techniques are presented, evaluated and compared to the Total Focusing Method, which is currently considered as the gold standard in ultrasonic array processing. A study into efficient imaging has also been completed, which involved development of an algorithm to focus upon any point through an arbitrary refracting interface. This algorithm was implemented on a commercially available graphics card and is able to account for a curved interface in real time with no prior knowledge of the surface profile. Spatially Averaged Sub-Aperture Correlation Imaging splits the full matrix of data into a set of sub-apertures which are imaged independently from each other. These images are then combined into two sets and are input to a two-dimensional cross-correlation algorithm that outputs a weighting matrix that can be applied to the sum of all images. Signals that are from legitimate reectors are highly correlated while less-correlated indications are the result of noise from scattering and multi-path propagation. SASACI has been shown to perform well experimentally through inspection of defects within multiple highly scattering welds at a frequency of 5 MHz. Correlation for Adaptively Focused Imaging aims to correct for anisotropy within difficult materials. The longitudinal velocity within a difficult material can vary with position and using an average velocity does not guarantee a well-focused image. For each pixel in an image,CAFI calculates which samples will be used to calculate the amplitude of the pixel before cross-correlating the signals from adjacent array elements and shifting the delay to the point of maximum focus. This methodology is effective when a small area with a known reflector is being imaged, and for this reason the algorithm is suited to characterisation of reflectors. This technique was experimentally validated on a block of Inconel 625 with a number of side-drilled holes.},
+	language = {eng},
+	urldate = {2018-03-24},
+	school = {University of Strathclyde},
+	author = {Lardner, Timothy},
+	year = {2016},
+	file = {Snapshot:/Users/tim/Zotero/storage/8BJPXEFW/OrderDetails.html:text/html}
+}
+
+@article{brown_automated_2015,
 	title = {Automated full matrix capture for industrial processes},
 	volume = {1650},
-	url = {http://scitation.aip.org/content/aip/proceeding/aipcp/10.1063/1.4914824},
+	copyright = {All rights reserved},
+	issn = {0094-243X},
+	url = {https://aip.scitation.org/doi/abs/10.1063/1.4914824},
 	doi = {10.1063/1.4914824},
-	abstract = {Full matrix capture (FMC) ultrasound can be used to generate a permanent re-focusable record of data describing the geometry of a part; a valuable asset for an inspection process. FMC is a desirable acquisition mode for automated scanning of complex geometries, as it allows compensation for surface shape in post processing and application of the total focusing method. However, automating the delivery of such FMC inspection remains a significant challenge for real industrial processes due to the high data overhead associated with the ultrasonic acquisition. The benefits of NDE delivery using six-axis industrial robots are well versed when considering complex inspection geometries, but such an approach brings additional challenges to scanning speed and positional accuracy when combined with FMC inspection. This study outlines steps taken to optimize the scanning speed and data management of a process to scan the diffusion bonded membrane of a titanium test plate. A system combining a KUKA robotic arm and a reconfigurable FMC phased array controller is presented. The speed and data implications of different scanning methods are compared, and the impacts on data visualization quality are discussed with reference to this study. For the 0.5 m2 sample considered, typical acquisitions of 18 TB/m2 were measured for a triple back wall FMC acquisition, illustrating the challenge of combining high data throughput with acceptable scanning speeds.},
-	urldate = {2015-05-21},
-	booktitle = {{AIP} {Conference} {Proceedings}},
-	publisher = {AIP Publishing},
+	number = {1},
+	urldate = {2018-03-24},
+	journal = {AIP Conference Proceedings},
 	author = {Brown, Roy H. and Pierce, S. Gareth and Collison, Ian and Dutton, Ben and Dziewierz, Jerzy and Jackson, Joseph and Lardner, Timothy and MacLeod, Charles and Morozov, Maxim},
 	month = mar,
 	year = {2015},
-	keywords = {Antenna arrays, Data management, Industrial inspection, Industrial processes, Robotics},
 	pages = {1967--1976},
-	file = {Snapshot:C\:\\Users\\Tim\\AppData\\Roaming\\Zotero\\Zotero\\Profiles\\g3v9a55z.default\\zotero\\storage\\A8NJE47G\\1.html:text/html}
+	file = {Snapshot:/Users/tim/Zotero/storage/2URGQK3K/1.html:text/html}
 }
 
-@inproceedings{mcgilp_inspection_2015_me,
-	address = {Manchester, UK},
-	title = {Inspection of complex components using 2{D} arrays and {TFM}},
+@incollection{mcgilp_inspection_2015,
+	title = {Inspection of complex components using 2D arrays and {TFM}},
+	copyright = {All rights reserved},
+	isbn = {978-1-63439-503-8},
+	url = {https://strathprints.strath.ac.uk/58107/},
+	abstract = {Inspection of welded components typical of the primary circuit pipework in nuclear power plants is essential to evaluate their integrity. The inspection surface of such components is often complex and non-planar, resulting in coupling issues for a conventional probe, with a fixed footprint. In general this instigates complex and lengthy data analysis to retrieve meaningful results. An efficient solution for inspecting such components is sought by using 2D arrays, collecting FMC and using TFM to construct the surface profile, which is then extracted and subsequently used to compose a TFM image of the component. The solution has been developed within the software platform cueART, designed to operate on GP-GPU processors, in a move towards real time imaging. The method has been used to inspect a 304n section of stainless steel with a surface representing the worst acceptable error of form expected in a practical inspection scenario. The results show the full surface of the test block can be reconstructed, as well as a range of artificial defects being accurately identified.},
+	urldate = {2018-03-24},
 	booktitle = {53rd {Annual} {Conference} of the {British} {Institute} of {Non}-{Destructive} {Testing} ({NDT} 2014)},
-	publisher = {Curran Associates, Inc.},
-	author = {McGilp, Ailidh and Lardner, Timothy and Dziewierz, Jerzy and Gachagan, Anthony and Mackersie, John and Bird, Colin},
+	publisher = {British Institute of Non-Destructive Testing},
+	author = {McGilp, Ailidh and Dziewierz, Jerzy and Lardner, Timothy and Gachagan, Anthony and MacKersie, John and Bird, Colin},
 	month = jan,
-	year = {2015}
+	year = {2015},
+	file = {Snapshot:/Users/tim/Zotero/storage/ZGACKEIR/58107.html:text/html}
 }
 
-@inproceedings{gongzhang_robust_2014_me,
-	title = {Robust frequency diversity based algorithm for clutter noise reduction of ultrasonic signals using multiple sub-spectrum phase coherence},
-	url = {http://scitation.aip.org/content/aip/proceeding/aipcp/10.1063/1.4865062},
-	doi = {10.1063/1.4865062},
-	urldate = {2015-05-21},
-	booktitle = {Proceedings of the 40th {Annual} {Review} of {Progress} in {Quantitative} {Nondestructive} {Evaluation}: {Incorporating} the 10th {International} {Conference} on {Barkhausen} {Noise} and {Micromagnetic} {Testing}},
-	author = {Gongzhang, R. and Li, M. and Xiao, B. and Lardner, T. and Gachagan, A.},
-	year = {2014},
-	pages = {1948--1955}
-}
-
-@inproceedings{lardner_using_2014_me,
-	title = {Using phase information to enhance speckle noise reduction in the ultrasonic {NDE} of coarse grain materials},
+@article{mcgilp_inspection_2014,
+	title = {Inspection design using 2D phased array, {TFM} and {cueMAP} software},
 	volume = {1581},
-	url = {http://scitation.aip.org/content/aip/proceeding/aipcp/10.1063/1.4864938},
-	doi = {10.1063/1.4864938},
-	abstract = {Materials with a coarse grain structure are becoming increasingly prevalent in industry due to their resilience to stress and corrosion. These materials are difficult to inspect with ultrasound because reflections from the grains lead to high noise levels which hinder the echoes of interest. Spatially Averaged Sub-Aperture Correlation Imaging (SASACI) is an advanced array beamforming technique that uses the cross-correlation between images from array sub-apertures to generate an image weighting matrix, in order to reduce noise levels. This paper presents a method inspired by SASACI to further improve imaging using phase information to refine focusing and reduce noise. A-scans from adjacent array elements are cross-correlated using both signal amplitude and phase to refine delay laws and minimize phase aberration. The phase-based and amplitude-based corrected images are used as inputs to a two-dimensional cross-correlation algorithm that will output a weighting matrix that can be applied to any conventional image. This approach was validated experimentally using a 5MHz array a coarse grained Inconel 625 step wedge, and compared to the Total Focusing Method (TFM). Initial results have seen SNR improvements of over 20dB compared to TFM, and a resolution that is much higher.},
-	urldate = {2014-10-21},
-	booktitle = {{AIP} {Conference} {Proceedings}},
-	publisher = {AIP Publishing},
-	author = {Lardner, Timothy and Li, Minghui and Gachagan, Anthony},
-	month = feb,
-	year = {2014},
-	keywords = {Acoustic beamforming, Corrosion, Industrial inspection, Medical image noise, Optical aberrations},
-	pages = {1061--1068},
-	file = {Snapshot:C\:\\Users\\Tim\\AppData\\Roaming\\Zotero\\Zotero\\Profiles\\g3v9a55z.default\\zotero\\storage\\ZN9FSU4U\\1.html:text/html}
-}
-
-@inproceedings{mcgilp_inspection_2014_me,
-	title = {Inspection design using 2{D} phased array, {TFM} and {cueMAP} software},
-	volume = {1581},
-	url = {http://scitation.aip.org/content/aip/proceeding/aipcp/10.1063/1.4864803},
+	copyright = {All rights reserved},
+	issn = {0094-243X},
+	url = {https://aip.scitation.org/doi/abs/10.1063/1.4864803},
 	doi = {10.1063/1.4864803},
-	abstract = {A simulation suite, cueMAP, has been developed to facilitate the design of inspection processes and sparse 2D array configurations. At the core of cueMAP is a Total Focusing Method (TFM) imaging algorithm that enables computer assisted design of ultrasonic inspection scenarios, including the design of bespoke array configurations to match the inspection criteria. This in-house developed TFM code allows for interactive evaluation of image quality indicators of ultrasonic imaging performance when utilizing a 2D phased array working in FMC/TFM mode. The cueMAP software uses a series of TFM images to build a map of resolution, contrast and sensitivity of imaging performance of a simulated reflector, swept across the inspection volume. The software takes into account probe properties, wedge or water standoff, and effects of specimen curvature. In the validation process of this new software package, two 2D arrays have been evaluated on 304n stainless steel samples, typical of the primary circuit in nuclear plants. Thick section samples have been inspected using a 1MHz 2D matrix array. Due to the processing efficiency of the software, the data collected from these array configurations has been used to investigate the influence sub-aperture operation on inspection performance.},
-	urldate = {2014-10-21},
-	booktitle = {{AIP} {Conference} {Proceedings}},
-	publisher = {AIP Publishing},
+	number = {1},
+	urldate = {2018-03-24},
+	journal = {AIP Conference Proceedings},
 	author = {McGilp, Ailidh and Dziewierz, Jerzy and Lardner, Tim and Mackersie, John and Gachagan, Anthony},
 	month = feb,
 	year = {2014},
-	keywords = {Antenna arrays, Computer Simulation, Computer software, Testing procedures, Ultrasonography},
 	pages = {65--71},
-	file = {Snapshot:C\:\\Users\\Tim\\AppData\\Roaming\\Zotero\\Zotero\\Profiles\\g3v9a55z.default\\zotero\\storage\\W9I5E3PM\\1.html:text/html}
+	file = {Snapshot:/Users/tim/Zotero/storage/BUGCVES9/1.html:text/html}
 }
 
-@inproceedings{dziewierz_design_2013_me,
-	title = {A design methodology for 2{D} sparse {NDE} arrays using an efficient implementation of refracted-ray {TFM}},
-	isbn = {978-1-4673-5686-2, 978-1-4673-5684-8},
-	url = {http://www.ieeeexplore.net/xpl/articleDetails.jsp?tp=&arnumber=6725215&searchWithin%3DSearch_Index_Terms%3A.QT.acoustic+wave+transmission.QT.%26searchWithin%3Dlardner},
-	doi = {10.1109/ULTSYM.2013.0035},
-	urldate = {2014-04-17},
-	booktitle = {Ultrasonics {Symposium} ({IUS}), 2013 {IEEE} {International}},
-	publisher = {IEEE},
-	author = {Dziewierz, Jerzy and Lardner, Timothy and Gachagan, Anthony},
+@misc{xiao_speckle_2014,
+	address = {Idaho},
+	type = {other},
+	title = {Speckle suppression using adaptive frequency compounding in ultrasound nondestructive evaluation of coarse-grained material},
+	copyright = {All rights reserved},
+	url = {https://strathprints.strath.ac.uk/58349/},
+	abstract = {Coarse-grained engineering materials exhibiting heterogeneous and anisotropic microstructure are used extensively in many industrial sectors. Inspecting such materials using ultrasound suffers from backscattered signals from grain boundaries resulting in strong speckle noise, which reduces image contrast and increases difficulty in image interpretation. In this paper, we propose an algorithm to adaptively compound images which are acquired in different frequency channels (FC), in order to remove or minimize speckle. Most existing image compounding algorithms are point-wise and based on order statistics estimation, which implicitly assume speckle is spatially and spectrally uncorrelated, leading to limited success in speckle suppression. The proposed method applies spatially variant weightings which are calculated to account for both spatial correlation and inter-FC correlation of speckle noise and flaw echo signals. To validate this method, experiments on two highly scattering samples were conducted: an Inconel 625 block with two side-drilled holes and a steel weld block with an implanted tilted flaw, simulating lack of fusion. Speckle point was found to be less spatially and spectrally correlated than flaw echo, yielding smaller compounding output. By applying adaptive compounding algorithms, flaw-to-noise ratio (FNR) of the Inconel block has achieved a {\textasciitilde}45 dB enhancement compared with minimization compounding, whilst {\textasciitilde}60dB FNR improvement for the steel weld block is demonstrated. It is concluded that the proposed algorithm can significantly suppresses speckle and enhance flaw characterization without spatial resolution loss.},
+	urldate = {2018-03-24},
+	author = {Xiao, Bo and Gongzhang, Rui and Lardner, Timothy and O'Leary, Richard and Gachagan, Anthony},
 	month = jul,
-	year = {2013},
-	pages = {136--138},
-	file = {Untitled Attachment:C\:\\Users\\Tim\\AppData\\Roaming\\Zotero\\Zotero\\Profiles\\g3v9a55z.default\\zotero\\storage\\DW9GURG9\\Dziewierz et al. - 2013 - A design methodology for 2D sparse NDE arrays usin.html:text/html}
+	year = {2014},
+	file = {Snapshot:/Users/tim/Zotero/storage/JDJVQWLH/58349.html:text/html}
 }
 
+@article{lardner_using_2014,
+	title = {Using phase information to enhance speckle noise reduction in the ultrasonic {NDE} of coarse grain materials},
+	volume = {1581},
+	copyright = {All rights reserved},
+	issn = {0094-243X},
+	url = {https://aip.scitation.org/doi/abs/10.1063/1.4864938},
+	doi = {10.1063/1.4864938},
+	number = {1},
+	urldate = {2018-03-24},
+	journal = {AIP Conference Proceedings},
+	author = {Lardner, Timothy and Li, Minghui and Gachagan, Anthony},
+	month = feb,
+	year = {2014},
+	pages = {1061--1068},
+	file = {Snapshot:/Users/tim/Zotero/storage/YYZNXBN4/1.html:text/html}
+}
 
+@article{gongzhang_robust_2014,
+	title = {Robust frequency diversity based algorithm for clutter noise reduction of ultrasonic signals using multiple sub-spectrum phase coherence},
+	volume = {1581},
+	copyright = {All rights reserved},
+	issn = {0094-243X},
+	url = {https://aip.scitation.org/doi/abs/10.1063/1.4865062},
+	doi = {10.1063/1.4865062},
+	number = {1},
+	urldate = {2018-03-24},
+	journal = {AIP Conference Proceedings},
+	author = {Gongzhang, R. and Li, M. and Xiao, B. and Lardner, T. and Gachagan, A.},
+	month = feb,
+	year = {2014},
+	pages = {1948--1955},
+	file = {Snapshot:/Users/tim/Zotero/storage/KECHY3QM/1.html:text/html}
+}
 
-
-
-
-@inproceedings{lardner_new_2013_me,
+@article{lardner_new_2013,
 	title = {A new speckle noise suppression technique using cross-correlation of array sub-apertures in ultrasonic {NDE} of coarse grain materials},
 	volume = {1511},
-	isbn = {0094-243X},
-	url = {http://adsabs.harvard.edu/abs/2013AIPC.1511..865L},
+	copyright = {All rights reserved},
+	issn = {0094-243X},
+	url = {https://aip.scitation.org/doi/abs/10.1063/1.4789135},
 	doi = {10.1063/1.4789135},
-	abstract = {In ultrasonic NDE, materials with coarse grains are difficult to inspect 
-because a significant portion of energy will be reflected by the grains
-which cause speckle noise when imaging. Coarse grain materials are
-widely used in industry therefore a suitable inspection technique must
-be developed. This paper presents Spatially Averaged Sub-Array
-Correlation Imaging (SASACI), an advanced method that reduces speckle
-noise. SASACI was validated through comparison with the Total Focusing
-Method. A mean noise reduction of over 20dB SNR was observed when
-inspecting a highly scattering nickel alloy at 5MHz with a 128 element
-array.},
-	urldate = {2014-02-11},
-	booktitle = {Review of Progress in Quantitative Non-Destructive Evaluation},
+	number = {1},
+	urldate = {2018-03-24},
+	journal = {AIP Conference Proceedings},
 	author = {Lardner, T. and Li, M. and Gongzhang, R. and Gachagan, A.},
 	month = jan,
 	year = {2013},
-	keywords = {acoustic noise, nickel alloys, Nondestructive testing: ultrasonic testing photoacoustic testing, Speckle, ultrasonic materials testing},
-	pages = {865--871}
+	pages = {865--871},
+	file = {Snapshot:/Users/tim/Zotero/storage/FDECXDBK/1.html:text/html}
 }
 
-@inproceedings{gongzhang_robust_2012_me,
+
+@inproceedings{dziewierz_design_2013,
+	title = {A design methodology for 2D sparse {NDE} arrays using an efficient implementation of refracted-ray {TFM}},
+	copyright = {All rights reserved},
+	doi = {10.1109/ULTSYM.2013.0035},
+	abstract = {An algorithm has been developed that allows extremely efficient calculation of the total time of flight of an acoustic ray through two layer media, taking into account the effects of refraction through a 3D non-planar surface. The approach has been implemented on GP-GPU hardware, and embedded within the Total Focussing Method (TFM) imaging algorithm. This new software module supports arbitrary location of probe elements, array element directivity, arbitrary curved interface between two media, arbitrary transmit/receive sequences and any 1D/2D/3D image size for reconstructing the ultrasonic image from raw RF ultrasonic data. This allows calculation of the Point Spread Function of the probe at a range of points in its field of view, in a practical timeframe. Methodology, performance benchmarks, and possible applications are discussed.},
+	booktitle = {2013 {IEEE} {International} {Ultrasonics} {Symposium} ({IUS})},
+	author = {Dziewierz, J. and Lardner, T. and Gachagan, A.},
+	month = jul,
+	year = {2013},
+	keywords = {1D-2D-3D image size, 2D sparse NDE arrays, 3D imaging, 3D nonplanar surface, acoustic arrays, acoustic ray, acoustic wave refraction, acoustic wave transmission, Acoustics, Algorithm design and analysis, arbitrary curved interface, arbitrary transmit-receive sequences, array element directivity, beamforming, design methodology, GP-GPU hardware, GPU, Graphics processing units, image reconstruction, imaging, Imaging, Media, nondestructive testing, optical transfer function, parallel computing, phased array, point spread function, practical timeframe, probe elements, Probes, raw RF ultrasonic data, refracted-ray TFM implementation, refraction effects, software module, TFM, Three-dimensional displays, total focussing method imaging, total time of flight, two layer media, ultrasonic, ultrasonic image reconstruction, ultrasonic imaging},
+	pages = {136--138},
+	file = {IEEE Xplore Abstract Record:/Users/tim/Zotero/storage/WF4MUMEU/6725215.html:text/html}
+}
+
+
+@inproceedings{gongzhang_robust_2012,
 	title = {Robust defect detection in ultrasonic nondestructive evaluation ({NDE}) of difficult materials},
+	copyright = {All rights reserved},
 	doi = {10.1109/ULTSYM.2012.0116},
 	abstract = {In this paper, we present a novel and flexible method for reliable and robust defect detection in difficult materials. It is well known in the literature that the interaction between ultrasonic beams and the insonified medium is a highly nonlinear process, which potentially exhibits distinctive frequency-dependent properties for defects and random reflectors with a degree of randomness. Instead of investigating the structure and pattern of the spectrum of an individual echo, the proposed method focuses on the distinction between the ensembles of defect signals and clutter noise. A training process is used to establish the statistical analysis, based on which a hypothesis test is then applied to received echoes to detect defects. The approach is expected to be adaptive to the material microstructure and characteristics due to the statistical training. Experiments with a 5MHz transducer on austenitic steel samples from a coal fired power station are conducted. Austenitic steel is highly scattering and attenuating, and the method demonstrates accurate and reliable defect detection. When applied to A-scan waveforms, the grain noise is significantly reduced while defect signals are enhanced, and the signal-to-noise ratio (SNR) is improved by about 20dB. As a result, the defect is more visible and can be readily identified in B-scan images. Initial results indicate that this method is robust and delivers good performance without additional calibration and compensation.},
-	booktitle = {Ultrasonics {Symposium} ({IUS}), 2012 {IEEE} {International}},
-	author = {Gongzhang, Rui and Li, Minghui and Lardner, T. and Gachagan, A.},
+	booktitle = {2012 {IEEE} {International} {Ultrasonics} {Symposium}},
+	author = {Gongzhang, R. and Li, M. and Lardner, T. and Gachagan, A.},
 	month = oct,
 	year = {2012},
-	keywords = {Acoustics, A-scan waveforms, austenitic steel, austenitic steel samples, B-scan images, clutter noise, coal fired power station, defect detection, defects, defect signals, difficult materials, echo, Feature extraction, frequency 5 MHz, frequency-dependent properties, grain noise, hypothesis test, individual echo, insonified medium, material characteristics, material microstructure, Materials, NDE, noise, non-destructive evaluation, nonlinear process, random reflectors, Signal processing algorithms, Signal to noise ratio, signal-to-noise ratio, SNR, Speckle, spectrum pattern, spectrum structure, statistical analysis, statistical training, training process, ultrasonic beams, ultrasonic materials testing, ultrasonic measurement, ultrasonic nondestructive evaluation, ultrasound},
+	keywords = {A-scan waveforms, Acoustics, austenitic steel, austenitic steel samples, B-scan images, clutter noise, coal fired power station, defect detection, defect signals, defects, difficult materials, echo, Feature extraction, frequency 5 MHz, frequency-dependent properties, grain noise, hypothesis test, individual echo, insonified medium, material characteristics, material microstructure, Materials, NDE, noise, non-destructive evaluation, nonlinear process, random reflectors, Signal processing algorithms, Signal to noise ratio, signal-to-noise ratio, SNR, Speckle, spectrum pattern, spectrum structure, statistical analysis, statistical training, training process, ultrasonic beams, ultrasonic materials testing, ultrasonic measurement, ultrasonic nondestructive evaluation, ultrasound},
 	pages = {467--470},
-	file = {IEEE Xplore Abstract Record:C\:\\Users\\Tim\\AppData\\Roaming\\Zotero\\Zotero\\Profiles\\g3v9a55z.default\\zotero\\storage\\FHVC3C9T\\Gongzhang et al. - 2012 - Robust defect detection in ultrasonic nondestructi.html:text/html;IEEE Xplore Full Text PDF:C\:\\Users\\Tim\\AppData\\Roaming\\Zotero\\Zotero\\Profiles\\g3v9a55z.default\\zotero\\storage\\WC4BCHHH\\Gongzhang et al. - 2012 - Robust defect detection in ultrasonic nondestructi.pdf:application/pdf}
+	file = {IEEE Xplore Abstract Record:/Users/tim/Zotero/storage/IZFKR3PP/6562509.html:text/html}
 }
-
